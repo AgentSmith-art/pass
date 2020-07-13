@@ -25,23 +25,13 @@ case 6:
 }
 
 var  remainingDays = 5 - new Date().getDay();
-if(new Date().getDay() === 0 || new Date().getDay() === 1)
-{
-    document.getElementById("day").innerHTML = " It's Weekend !";
-}
-else
-{
-document.getElementById("day").innerHTML = "Today is " + day + ", " + remainingDays + " more days to go for weekend";
-}
-
 
 setInterval(myTimer, 1000);
-
 
 function myTimer()
 {
     var d = new Date();
-    var t = d.toLocaleTimeString();
-    document.getElementById("time").innerHTML =  t + " 	&#9830 TIME IS'NT REAL";
+  
+    document.getElementById("time").textContent =  d.toLocaleTimeString();
 
 }

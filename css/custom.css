@@ -1,56 +1,40 @@
-
 body, html {
-    height: 100%;
+    background-image: url(/img/new.jpg);
   }
-  #time
+  img
   {
-      padding-top: 6%;
-  }
-  .footer
-  {
-      text-align: center;
-      padding-top: 30%;
-      font-family: Segoe UI; 
-      font-weight: bold;
-      font-size: 3rem;
-      color: silver;
-  }
-  .container
-  {
-      height: inherit;
-      width: 100%;
-      background-size: cover;
-  }
-  .bg {
-    /* The image used */
-    background-image: url("../img/mo.png");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
+    max-width: 100%;
+    height: auto;
     background-repeat: no-repeat;
-    background-size: cover;
   }
+  
   .heading
   {
-    color: #3b6978;
+    color:#07031a;
     font-family: Segoe UI; 
     font-weight: bold;
-    font-size: 15rem;
-    text-align: right;
-    padding-right: 5%;
+    font-size: 5rem;
+    text-align: center;
+    
     padding-top: 5%;
   }
   .heading2
   {
-    color: #3b6978;
+    color:black;
     font-family: Segoe UI; 
     font-weight: bold;
-    font-size: 6rem;
-    text-align: right;
-    padding-right: 5%;
-    
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 6%;
+  }
+  .heading4
+  {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 50px;
   }
   
+  
+ 
+ 
